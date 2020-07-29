@@ -1,11 +1,3 @@
-HARDWARD_CONFIGURED = False 
-if HARDWARD_CONFIGURED:
-    from raspi import setup, turn_on, turn_off, destroy
-
-# You can leave the rest of this file alone
-# If you'd like to see the unmodified version you can find it here:
-# https://github.com/aws/aws-iot-device-sdk-python-v2/blob/master/samples/shadow.py
-
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 # SPDX-License-Identifier: Apache-2.0
 from __future__ import absolute_import
@@ -19,6 +11,14 @@ import sys
 import threading
 import traceback
 from uuid import uuid4
+
+HARDWARD_CONFIGURED = False 
+if HARDWARD_CONFIGURED:
+    from raspi import setup, turn_on, turn_off, destroy
+
+# You can leave the rest of this file alone
+# If you'd like to see the unmodified version you can find it here:
+# https://github.com/aws/aws-iot-device-sdk-python-v2/blob/master/samples/shadow.py
 
 # - Overview -
 # This sample uses the AWS IoT Device Shadow Service to keep a property in
