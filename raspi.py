@@ -4,18 +4,6 @@
 # --root-ca root-CA.crt \
 # --thing-name raspi \
 # --shadow-property light
-
-from awscrt import auth, io, mqtt, http
-from awsiot import iotshadow
-from awsiot import mqtt_connection_builder
-from concurrent.futures import Future
-import sys
-import threading
-import traceback
-from uuid import uuid4
-
-
-
 import RPi.GPIO as GPIO
 import time
 ledPin = 11
