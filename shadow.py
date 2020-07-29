@@ -1,4 +1,3 @@
-# This section
 HARDWARD_CONFIGURED = False 
 if HARDWARD_CONFIGURED:
     from raspi import setup, turn_on, turn_off, destroy
