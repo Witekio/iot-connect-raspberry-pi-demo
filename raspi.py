@@ -1,9 +1,3 @@
-# python3 shadow.py --endpoint REPLACE_ME-ats.iot.us-east-1.amazonaws.com \
-# --cert REPLACE_ME-certificate.pem.crt \
-# --key REPLACE_ME-private.pem.key \
-# --root-ca root-CA.crt \
-# --thing-name raspi \
-# --shadow-property light
 import RPi.GPIO as GPIO
 import time
 ledPin = 11
