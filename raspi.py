@@ -1,6 +1,6 @@
 import RPi.GPIO as GPIO
-import time
 ledPin = 11
+
 
 def setup():
     GPIO.setmode(GPIO.BOARD) # use Physical GPIO Numbering,
