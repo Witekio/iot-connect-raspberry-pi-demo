@@ -80,10 +80,10 @@ def main(argv):
                     else:
                         input = "exit"
             except KeyboardInterrupt:
-                raspi.destoy()
+                raspi.destroy()
                 sys.exit(0)
     except Exception as ex:
-        raspi.destoy()
+        raspi.destroy()
         print(ex.message)
         sys.exit(0)
  
