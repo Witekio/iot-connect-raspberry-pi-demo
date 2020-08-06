@@ -1,0 +1,7 @@
+{
+	"certificate" : { 
+		"SSLKeyPath" : "/home/pi/Downloads/private.pem",
+		"SSLCertPath" : "/home/pi/Downloads/client-certificate.pem",
+		"SSLCaPath" : "/home/pi/Downloads/ca.crt.pem"
+	}
+}
